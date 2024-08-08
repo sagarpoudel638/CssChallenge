@@ -132,7 +132,7 @@ min-height: 500px;
     width: 300px;
     color: #53e3a6;
 }
-.card button {
+.card,.quizcontainer button {
     appearance: none;
     outline: 0;
     background-color: white;
@@ -145,7 +145,7 @@ min-height: 500px;
     font-size: 18px;
     transition-duration: 0.25s;
 }
-.card button:hover {
+.card,.quizcontainer button:hover {
     background-color: #f5f7f9;
 }
 .quizbutton {
@@ -167,3 +167,23 @@ min-height: 500px;
 .quizbutton:hover {
     background-color: #f5f7f9;
 }
+
+.quizcontainer{height: auto;
+width:fit-content;
+background-color: #53e3a6;
+justify-content:  center;
+margin-left: 30%;
+padding-left: 10px;
+padding-right: 10px;}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.question {
+    margin-bottom: 40px;
+    
+}
+
